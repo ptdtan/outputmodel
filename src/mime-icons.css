@@ -1,0 +1,283 @@
+/*!
+ * mime-icon-generator -https://github.com/erikyo/mime-icon-generator
+ * Version - 1.0.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2021 Codekraft Studio - info@codekraft.it
+ */
+
+@charset "UTF-8";
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v29/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2)
+    format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.mime-icon .ico.ico-magenta:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23D9006C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0"></text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23FF2792"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon .ico.ico-yellow:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F9CA15"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0"></text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23FBDB60"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon .ico.ico-blue:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%230D75DD"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0"></text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23439BF4"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.abc .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23E26136"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0">ABC</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23EC9679"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.def .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%2390C030"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0">DEF</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23B1D864"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.ghi .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%238C59C0"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0">GHI</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23B390D5"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-mp3 .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">MP3</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%2312A092"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-pcm .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">PCM</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%238AB15C"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-ogg .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">OGG</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23BFCB4A"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-wav .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">WAV</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23ECB81A"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-aac .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">AAC</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23E45146"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-aiff .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">AIFF</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23D63169"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-wma .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">WMA</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%239137A0"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-html .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">HTML</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23515EA3"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.light.ico-js .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F1F2F2"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23888888;font-weight:bold;text-anchor:middle;text-shadow:0">JS</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%239137A0"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-csv .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">CSV</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%2312A092"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-txt .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">TXT</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%238AB15C"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-rtf .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">RTF</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23BFCB4A"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-doc .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">DOC</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23ECB81A"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-docx .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">DOCX</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23E45146"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-flac .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">FLAC</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23D63169"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-js .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">JS</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%239137A0"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.dark.ico-php .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23DDDDDD;font-weight:bold;text-anchor:middle;text-shadow:0">PHP</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23515EA3"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-avi .ico:before {
+  color: #f44336 !important;
+}
+
+.mime-icon.double.ico-avi .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F44336;font-weight:bold;text-anchor:middle;text-shadow:0">AVI</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23F44336"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-mp4 .ico:before {
+  color: #8bc34a !important;
+}
+
+.mime-icon.double.ico-mp4 .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%238BC34A;font-weight:bold;text-anchor:middle;text-shadow:0">MP4</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%238BC34A"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-mkv .ico:before {
+  color: #bdcc2b !important;
+}
+
+.mime-icon.double.ico-mkv .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23BDCC2B;font-weight:bold;text-anchor:middle;text-shadow:0">MKV</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23BDCC2B"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-mpeg .ico:before {
+  color: #ffc107 !important;
+}
+
+.mime-icon.double.ico-mpeg .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23FFC107;font-weight:bold;text-anchor:middle;text-shadow:0">MPEG</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23FFC107"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-mov .ico:before {
+  color: #05ad9d !important;
+}
+
+.mime-icon.double.ico-mov .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%2305AD9D;font-weight:bold;text-anchor:middle;text-shadow:0">MOV</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%2305AD9D"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-flv .ico:before {
+  color: #e91e63 !important;
+}
+
+.mime-icon.double.ico-flv .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23E91E63;font-weight:bold;text-anchor:middle;text-shadow:0">FLV</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23E91E63"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-swf .ico:before {
+  color: #9c27b0 !important;
+}
+
+.mime-icon.double.ico-swf .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%239C27B0;font-weight:bold;text-anchor:middle;text-shadow:0">SWF</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%239C27B0"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon.double.ico-wmv .ico:before {
+  color: #8bc34a !important;
+}
+
+.mime-icon.double.ico-wmv .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%233A3B3C"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%238BC34A;font-weight:bold;text-anchor:middle;text-shadow:0">WMV</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%238BC34A"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+
+.mime-icon {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.mime-icon .ico {
+  position: relative;
+  text-align: center;
+}
+.mime-icon .ico:before {
+  position: absolute;
+  top: 17.77778px;
+  display: block;
+  width: 100%;
+  overflow: visible;
+  z-index: 9;
+  content: "";
+  font-family: "Material Icons";
+  font-size: 11.42857px;
+  opacity: 0.8;
+}
+.mime-icon .ico:after {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  content: "";
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23888888"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0"></text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23AEAEAE"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+}
+.mime-icon.light .ico:before {
+  color: #666666 !important;
+}
+.mime-icon.light .ico:after {
+  -webkit-filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+}
+.mime-icon.dark .ico:before {
+  color: #f1f2f2 !important;
+}
+.mime-icon.dark .ico:after {
+  -webkit-filter: inherit;
+  filter: inherit;
+}
+.mime-icon.double .ico:after {
+  -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.25));
+}
+.mime-icon i.material-icons {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  right: 0;
+  font-size: 28px;
+  color: #f1f2f2;
+  opacity: 0.8;
+}
+
+.mime-icon.ico-txt .ico:before {
+  content: "";
+  color: #f1f2f2;
+}
+
+.mime-icon.ico-txt .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23B1375E"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0">TXT</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23CF6587"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+  -webkit-filter: inherit;
+  filter: inherit;
+}
+
+.mime-icon.ico-jpeg .ico:before {
+  content: "";
+  color: #f1f2f2;
+}
+
+.mime-icon.ico-jpeg .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23DB4F42"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0">JPEG</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23E78B82"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+  -webkit-filter: inherit;
+  filter: inherit;
+}
+
+.mime-icon.ico-nan .ico:before {
+  content: "";
+  color: #f1f2f2;
+}
+
+.mime-icon.ico-nan .ico:after {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="icon-model" viewBox="0 0 200 200"> <path d="M171 192.4V58.2l-58.4 0V0H36.5C32.4 0 29 3.4 29 7.6h0v184.9h0c0 4.2 3.4 7.6 7.6 7.6h126.9C167.6 200 171 196.6 171 192.4z" fill="%23F29B00"/><text class="icon-text" transform="translate(100 171)" width="120" height="50" font-family="Myriad, Tahoma-Bold, sans-serif" font-size="38" style="fill:%23F1F2F2;font-weight:bold;text-anchor:middle;text-shadow:0">NAN</text><polygon points="112.6 0 171 58.3 112.6 58.3" fill="%23FFBA40"/><polygon points="170.9 116.5 112.6 58.3 170.9 58.3" style="fill:%23010202;opacity:0.1"/></svg>');
+  -webkit-filter: inherit;
+  filter: inherit;
+}
+
+/*# sourceMappingURL=mime-icons.css.map */
